@@ -1,10 +1,20 @@
 # SKUtopia coding test
 
-A component is required that can generically receive order information in multiple formats depending on it's integration source (e.g. different sales channels) and render the information child component that is passed to it.
+A component is required that can generically receive order information in different formats depending on it's integration source (e.g. different sales channels) and render the information in a child component that is passed to it.
 
-The use case for this is to cater for two different consumers. On one hand, we may want to display information to a user of an inventory management system so they can be aware of orders placed on their store and begin fulfilling them.
+This component is designed to cater for two different consumers.
 
-On the other hand, we may want to be able to display the information to warehouse staff member so they can go about picking the items and their correct quantities to fulfil the order.
+On one hand, we may want to display information to a user of an inventory management system so they can be aware of orders placed on their store and begin fulfilling them.
+
+On the other hand, we may want to be able to display the information to a warehouse staff member so they can go about picking the items and their correct quantities to fulfil the order.
+
+## The Task
+
+Using Typescript and React, create a component that receives the order data provided and a child component to render the data. The parent component should consistently render the child component regardless of the order's data structure.
+
+Include unit and integration tests for your component.
+
+When building these components, give a particular focus to the types. Keeping in mind that more integrations can be added in the future.
 
 ## The Design
 
@@ -12,9 +22,7 @@ This design displays the two layouts, both the Inventory Management System and t
 
 > https://www.figma.com/file/xdkJxQ30QVRc4GRa1LEQAQ/SKUtopia-Design?node-id=3335%3A0
 
-When building these components, give a particular focus to types keeping in mind that more integrations can be added in the future.
-
-## The order data
+## The Order Data
 
 ```
 const IntegrationOrder1 = {
