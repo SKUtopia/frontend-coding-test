@@ -1,10 +1,10 @@
 # SKUtopia coding test
 
-A component is required that can generically receive order information in multiple formats depending on it's source (e.g. different sales channels) and render the information child component that is passed to it.
+A component is required that can generically receive order information in multiple formats depending on it's integration source (e.g. different sales channels) and render the information child component that is passed to it.
 
-The use case for this is to cater for two different consumers. On one hand, we want to display information to a user of an inventory management system so they can be aware of orders place on their store and begin fulfilling them.
+The use case for this is to cater for two different consumers. On one hand, we may want to display information to a user of an inventory management system so they can be aware of orders place on their store and begin fulfilling them.
 
-On the other hand, we want to be able to display the same information to warehouse staff member so they can go about picking the items and their correct quantities to fulfil the order.
+On the other hand, we may want to be able to display the information to warehouse staff member so they can go about picking the items and their correct quantities to fulfil the order.
 
 ## The Design
 
