@@ -16,6 +16,10 @@ Include unit and integration tests for your components.
 
 When building these components, give a particular focus to the types. Keeping in mind that more integrations can be added in the future.
 
+### Hosting
+
+Push your code to a public GitHub repo and host it via [GitHub Pages](https://pages.github.com/)
+
 ## The Design
 
 This design displays the two layouts, both the Inventory Management System and the Warehouse Management System.
