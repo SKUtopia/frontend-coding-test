@@ -12,7 +12,7 @@ On the other hand, we may want to be able to display the information to a wareho
 
 Using Typescript and React, create a component that receives the order data provided and a child component to render the data. The parent component should consistently render the child component regardless of the order's data structure.
 
-Include unit and integration tests for your component.
+Include unit and integration tests for your components.
 
 When building these components, give a particular focus to the types. Keeping in mind that more integrations can be added in the future.
 
