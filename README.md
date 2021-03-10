@@ -1,6 +1,6 @@
 # SKUtopia coding test
 
-A component is required that can generically receive order information in different formats depending on it's integration source (e.g. different sales channels) and render the information in a child component that is passed to it.
+A component is required that can generically receive order information in different formats depending on it's integration source (e.g. Shopify, Woocommerce) and render the information in a child component that is passed to it.
 
 This component is designed to cater for two different consumers.
 
