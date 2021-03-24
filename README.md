@@ -43,6 +43,7 @@ const IntegrationOrder1 = {
         SKU: "P4321",
         description: "Large ripped jeans",
         quantity: 3,
+        UnitPrice: 150,
         options: [
           {
             name: 'colour',
@@ -61,6 +62,7 @@ const IntegrationOrder1 = {
         SKU: "S4321",
         description: "US 6 Pink Heels",
         quantity: 3,
+        UnitPrice: 200,
         options: [
           {
             name: 'colour',
